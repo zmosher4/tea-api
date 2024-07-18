@@ -1,0 +1,125 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "name": "Alice Johnson",
+      "email": "alice@example.com"
+    },
+    {
+      "id": 2,
+      "name": "Bob Smi",
+      "email": "bob@example.com"
+    },
+    {
+      "id": 3,
+      "name": "Carol Weee",
+      "email": "carol@example.com"
+    },
+    {
+      "id": 4,
+      "name": "David Brown",
+      "email": "david@example.com"
+    }
+  ],
+  "vendors": [
+    {
+      "id": 1,
+      "name": "Teas we like"
+    },
+    {
+      "id": 2,
+      "name": "The Jade Leaf"
+    },
+    {
+      "id": 3,
+      "name": "Liquid Proust"
+    },
+    {
+      "id": 4,
+      "name": "Yunnan Sourcing"
+    }
+  ],
+  "categories": [
+    {
+      "id": 1,
+      "name": "white"
+    },
+    {
+      "id": 2,
+      "name": "green"
+    },
+    {
+      "id": 3,
+      "name": "oolong"
+    },
+    {
+      "id": 4,
+      "name": "yellow"
+    },
+    {
+      "id": 5,
+      "name": "black"
+    },
+    {
+      "id": 6,
+      "name": "pu'erh"
+    }
+  ],
+  "teas": [
+    {
+      "id": 1,
+      "name": "Yangqing Hao Lingya",
+      "price": 240,
+      "datePurchased": 20240607,
+      "Notes": "TW stored but not by yang. Fruity, dark, but delicate.",
+      "categoryId": 6,
+      "userId": 2,
+      "vendorId": 3,
+      "favorite": true
+    },
+    {
+      "id": 2,
+      "name": "Dayi 2008 8582-801",
+      "price": 110,
+      "datePurchased": 20210214,
+      "Notes": "Solid, reliable daily drinker.",
+      "categoryId": 6,
+      "userId": 3,
+      "vendorId": 1,
+      "favorite": false
+    },
+    {
+      "id": 3,
+      "name": "Xiaguan 2005 T8653",
+      "price": 90,
+      "datePurchased": 20230415,
+      "Notes": "Nice factory tea, a great daily brew.",
+      "categoryId": 6,
+      "userId": 4,
+      "vendorId": 2,
+      "favorite": false
+    },
+    {
+      "id": 4,
+      "name": "Moonlight White",
+      "price": 24,
+      "datePurchased": 20141107,
+      "Notes": "Maple Syrup, autumn leaves. Always a good cold weather tea.",
+      "categoryId": 1,
+      "userId": 1,
+      "vendorId": 3,
+      "favorite": true
+    },
+    {
+      "id": 5,
+      "name": "Lao Cong Shui Xian",
+      "price": 40,
+      "datePurchased": 20220801,
+      "Notes": "Smoky, fruity, dark fruits, raisin sweetness. ",
+      "categoryId": 3,
+      "userId": 4,
+      "vendorId": 4,
+      "favorite": false
+    }
+  ]
+}

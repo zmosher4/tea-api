@@ -7,18 +7,23 @@
     },
     {
       "id": 2,
-      "name": "Bob Smi",
+      "name": "Bob Smith",
       "email": "bob@example.com"
     },
     {
       "id": 3,
-      "name": "Carol Weee",
-      "email": "carol@example.com"
+      "name": "Carol W",
+      "email": "carol@example.co"
     },
     {
       "id": 4,
-      "name": "David Brown",
-      "email": "david@example.com"
+      "name": "David Bro",
+      "email": "david@example.c"
+    },
+    {
+      "email": "zach@me.co.uk",
+      "name": "Zach Mosh",
+      "id": 5
     }
   ],
   "vendors": [
@@ -70,56 +75,177 @@
       "id": 1,
       "name": "Yangqing Hao Lingya",
       "price": 240,
-      "datePurchased": 20240607,
-      "Notes": "TW stored but not by yang. Fruity, dark, but delicate.",
+      "datePurchased": "Mon May 12 2022",
+      "notes": "TW stored but not by yang. Fruity, dark, but delicate.",
       "categoryId": 6,
       "userId": 2,
       "vendorId": 3,
-      "favorite": true
+      "favorite": true,
+      "imgUrl": "https://www.filepicker.io/api/file/5KdNNDqwSbiMSDu4ZWJW/convert?fit=max&h=480&w=940",
+      "category": {
+        "id": 6,
+        "name": "pu'erh"
+      },
+      "vendor": {
+        "id": 3,
+        "name": "Liquid Proust"
+      }
     },
     {
       "id": 2,
       "name": "Dayi 2008 8582-801",
       "price": 110,
-      "datePurchased": 20210214,
-      "Notes": "Solid, reliable daily drinker.",
+      "datePurchased": "Tue Apr 01 2029",
+      "notes": "Solid, reliable daily drinker.",
       "categoryId": 6,
       "userId": 3,
       "vendorId": 1,
-      "favorite": false
+      "favorite": false,
+      "imgUrl": "https://teaswelike.com/wp-content/uploads/2019/05/08-Dayi-8582-801-1-768x768.jpg"
     },
     {
       "id": 3,
-      "name": "Xiaguan 2005 T8653",
-      "price": 90,
-      "datePurchased": 20230415,
-      "Notes": "Nice factory tea, a great daily brew.",
-      "categoryId": 6,
-      "userId": 4,
-      "vendorId": 2,
-      "favorite": false
-    },
-    {
-      "id": 4,
-      "name": "Moonlight White",
-      "price": 24,
-      "datePurchased": 20141107,
-      "Notes": "Maple Syrup, autumn leaves. Always a good cold weather tea.",
+      "name": "gong mei",
+      "price": 22,
+      "datePurchased": "Wed Dec 01 2020",
+      "notes": "purp",
       "categoryId": 1,
-      "userId": 1,
-      "vendorId": 3,
-      "favorite": true
-    },
-    {
-      "id": 5,
-      "name": "Lao Cong Shui Xian",
-      "price": 40,
-      "datePurchased": 20220801,
-      "Notes": "Smoky, fruity, dark fruits, raisin sweetness. ",
-      "categoryId": 3,
       "userId": 4,
       "vendorId": 4,
-      "favorite": false
+      "favorite": false,
+      "imgUrl": "https://yunnansourcing.com/cdn/shop/products/1_134aff81-7344-44ef-bfc3-75a0ae72d11f_1510x1510.jpg?v=1618861143",
+      "category": {
+        "id": 1,
+        "name": "white"
+      },
+      "vendor": {
+        "id": 4,
+        "name": "Yunnan Sourcing"
+      }
+    },
+    {
+      "name": "dragon well",
+      "price": 10,
+      "datePurchased": "Thu Nov 19 2019",
+      "notes": "fresh, nutty",
+      "categoryId": 2,
+      "userId": 3,
+      "vendorId": 4,
+      "favorite": true,
+      "imgUrl": "https://upload.wikimedia.org/wikipedia/commons/f/f5/Longjing_tea.jpg",
+      "id": 5,
+      "category": {
+        "id": 2,
+        "name": "green"
+      },
+      "vendor": {
+        "id": 4,
+        "name": "Yunnan Sourcing"
+      }
+    },
+    {
+      "name": "high mountain oo",
+      "price": 1500,
+      "datePurchased": "Wed Feb 14 2022",
+      "notes": "yum",
+      "categoryId": 1,
+      "userId": 2,
+      "vendorId": 2,
+      "favorite": false,
+      "imgUrl": "https://beautifultaiwantea.com/cdn/shop/articles/Taiwan_Tea_19_2000x.jpg?v=1679004176",
+      "id": 7,
+      "category": {
+        "id": 1,
+        "name": "white"
+      },
+      "vendor": {
+        "id": 2,
+        "name": "The Jade Leaf"
+      }
+    },
+    {
+      "name": "darjeeling",
+      "price": 20,
+      "datePurchased": "Mon Jun 02 2024",
+      "notes": "nutty, sweet",
+      "categoryId": 5,
+      "userId": 2,
+      "vendorId": 4,
+      "favorite": false,
+      "imgUrl": "https://happyearthtea.com/cdn/shop/files/RisheehatFF24_1184x1184.jpg?v=1713536689",
+      "id": 8,
+      "category": {
+        "id": 5,
+        "name": "black"
+      },
+      "vendor": {
+        "id": 4,
+        "name": "Yunnan Sourcing"
+      }
+    },
+    {
+      "name": "Roasted Shui Xian",
+      "price": 33,
+      "datePurchased": "Tue Jul 23 2024",
+      "notes": "dark, robust",
+      "categoryId": 3,
+      "userId": 4,
+      "vendorId": 1,
+      "favorite": true,
+      "imgUrl": "https://www.wuyiorigin.com/cdn/shop/files/1_4723246e-14af-4a9b-ba20-1069019b2a8f_1080x.jpg?v=1692778488",
+      "id": 9,
+      "category": {
+        "id": 3,
+        "name": "oolong"
+      },
+      "vendor": {
+        "id": 1,
+        "name": "Teas we like"
+      }
+    },
+    {
+      "name": "Matcha",
+      "price": 15,
+      "datePurchased": "Tue Jul 23 2024",
+      "notes": "Fresh, grassy, refreshing",
+      "imgUrl": "https://media.post.rvohealth.io/wp-content/uploads/2020/08/matcha-green-tea-732x549-thumbnail.jpg",
+      "categoryId": 2,
+      "userId": 5,
+      "vendorId": 4,
+      "favorite": true,
+      "id": 10,
+      "category": {
+        "id": 2,
+        "name": "green"
+      },
+      "vendor": {
+        "id": 4,
+        "name": "Yunnan Sourcing"
+      }
+    },
+    {
+      "name": "Roasted Oolong",
+      "price": 50,
+      "datePurchased": "Tue Jul 23 2024",
+      "notes": "Smoky, robust, fruity",
+      "imgUrl": "https://what-cha.com/cdn/shop/products/1_657b1123-978b-47ff-a2fc-1349664626a7.JPG?v=1555627282",
+      "categoryId": 3,
+      "userId": 5,
+      "vendorId": 2,
+      "favorite": true,
+      "id": 11
+    },
+    {
+      "name": "7542",
+      "price": 75,
+      "datePurchased": "Mon Jul 29 2024",
+      "notes": "plummy, bittersweet",
+      "categoryId": 6,
+      "userId": 2,
+      "vendorId": 1,
+      "favorite": false,
+      "imgUrl": "https://teaswelike.com/wp-content/uploads/2020/10/IMG_9106-768x768.jpeg",
+      "id": 12
     }
   ]
 }
